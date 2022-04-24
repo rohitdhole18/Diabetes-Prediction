@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-lkm+7zb)r93lxk)c4krsq5v7o^*i_1gp_vy94111i=mpn(27-j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://db-prediction.herokuapp.com/","localhost","127.0.0.1"]
 
 
 # Application definition
